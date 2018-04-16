@@ -21,6 +21,6 @@ npm run start
 Navigate to http://localhost:3000/
 
 ## vscode 
-If you want to use this project with Visual Studio Code, make sure you install the "Debugger for Chrome" extension; the "F5" to launch an attached chrome instance with source maps! 
+If you want to use this project with Visual Studio Code, make sure you install the "[Debugger for Chrome](https://github.com/Microsoft/vscode-chrome-debug)" extension; the "F5" to launch an attached chrome instance with source maps! 
 
-Make sure webpack-dev-server is already running, either through the "webpack-dev-server" vscode task, or just from running `npm start`;
+Make sure webpack-dev-server is already running, either through the "webpack-dev-server" vscode task, or just from running `npm start`
