@@ -5,9 +5,10 @@ My take on a starter for Typescript + React + Mobx. Trying to only include the d
  - **React!** Declarative UI!
  - **React-Router!** HTML5 history! Use the back button! Have routes!
  - **Mobx!** State management! Store injection!
- - **Webpack 4!** Build it all! 
+ - **Webpack 4!** Build it all! Serve it up!
  - **Semantic UI!** Prettier UI!
  - **Hot Reload!** Speed up that inner loop! Save = compile + refresh!
+ - **VSCode Support!** Refactoring! Completions! Breakpoints! Debugging! 
 
 ## Getting Started 
 
