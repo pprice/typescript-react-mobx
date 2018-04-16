@@ -16,7 +16,10 @@ export default class Home extends React.Component<IProps>  {
         return (
             <div>
                 <h2>Welcome!</h2>
-                <Button onClick={() => push('/counter')}>Add numbers!</Button>
+                <p>
+                    Example of child page navigation
+                    <Button onClick={() => push('/counter')}>Use a cool counter!</Button>
+                </p>
             </div>
         )
     }
