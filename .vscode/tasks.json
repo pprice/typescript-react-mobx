@@ -1,0 +1,22 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "presentation": {
+                "echo": true,
+
+                "reveal": "never",
+                "focus": false,
+                "panel": "dedicated"
+            },
+            "identifier": "dev-server",
+            "label": "Run webpack-dev-server",
+            "type": "npm",
+            "script": "start",
+            "problemMatcher": [],
+            "isBackground": true
+        }
+    ]
+}
