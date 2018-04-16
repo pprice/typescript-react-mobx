@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Icon, Menu, Container } from "semantic-ui-react";
 
-import { inject, observer } from 'mobx-react';
+import { inject } from 'mobx-react';
 import { Switch, Route } from 'react-router';
 import { RouterStore } from 'mobx-react-router';
 
@@ -12,10 +12,10 @@ interface IProps {
     router: RouterStore
 };
 
-@inject('router') @observer
+@inject('router')
 export default class App extends React.Component<IProps> {
     render() {
-        const { push  } = this.props.router;
+        const { push } = this.props.router;
         return (
             <div>
                 <Menu fixed='top' inverted>
